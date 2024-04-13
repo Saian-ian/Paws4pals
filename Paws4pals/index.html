@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Paws4pals</title>
+  <link rel="stylesheet" href="style/style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="style/script.js" defer></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body>
+  <header class="header" data-header>
+    <div class="container">
+      <button class="nav-toggle-bnt" aria-label="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-label="true" class="close-icon"></ion-icon>
+      </button>
+      <a href="#" class="logo">Paws4pals</a>
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+          <li class="navbar-item"><a href="#" class="navbar-link">Home</a></li>
+          <li class="navbar-item"> <a href="/pages/products.html" class="navbar-link">Products</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">About</a></li>
+          <li class="navbar-item"><a href="#" class="navbar-link">Contact</a></li>
+        </ul>
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+      <div class="header-actions">
+        <button class="action-btn">
+          <i class='bx bx-search'></i>
+        </button>
+        <button class="action-btn user">
+          <i class='bx bx-male'></i>
+        </button>
+        <button class="action-btn">
+          <i class='bx bx-shopping-bag'></i>
+          <span class="btn-badge"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="hero has-bg-image" style="background: url(/images/heroimage2.jpg);">
+      <div class="container">
+        <h1 class="h1 hero-title"><span class="span">Take Care</span>of your Pets</h1>
+        <p class="hero-text">Human-canine bonding</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </section>
+
+    <!--- #CATEGORY-->
+
+    <section class="section category">
+      <div class="container">
+        <h2 class="h2 section-title"><span class="span">Top</span> categories</h2>
+        <ul class="has-scrollbar">
+          <li class="scrollbar-item">
+            <div class="category-card">
+              <figure class="card-banner img-holder">
+                <img src="images/category-1.jpg" class="img-cover">
+              </figure>
+              <h3 class="h3"> <a href="#" class="card-title">Cat Food</a> </h3>
+            </div>
+          </li>
+          <li class="scrollbar-item">
+            <div class="category-card">
+              <figure class="card-banner img-holder">
+                <img src="images/category-2.jpg" class="img-cover">
+              </figure>
+              <h3 class="h3">
+                <a href="#" class="card-title">Cat Toys</a>
+              </h3>
+            </div>
+          </li>
+          <li class="scrollbar-item">
+            <div class="category-card">
+              <figure class="card-banner img-holder">
+                <img src="images/category-3.jpg" class="img-cover">
+              </figure>
+              <h3 class="h3">
+                <a href="#" class="card-title">Dog Food</a>
+              </h3>
+            </div>
+          </li>
+          <li class="scrollbar-item">
+            <div class="category-card">
+              <figure class="card-banner img-holder">
+                <img src="images/category-4.jpg" class="img-cover">
+              </figure>
+              <h3 class="h3">
+                <a href="#" class="card-title">Dog Toys</a>
+              </h3>
+            </div>
+          </li>
+          <li class="scrollbar-item">
+            <div class="category-card">
+              <figure class="card-banner img-holder">
+                <img src="images/category-5.jpg" class="img-cover">
+              </figure>
+              <h3 class="h3">
+                <a href="#" class="card-title">Dog Sumpplements</a>
+              </h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section offer">
+      <div class="container">
+        <ul class="grid-list">
+          <li>
+            <div class="offer-card has-bg-image img-holder"
+              style="background-image: url('images/offer-banner-1.jpg');">
+              <p class="card-subtitle">Selected Items. Online Only.</p>
+              <h3 class="h3 card-title">
+                Hot Summer <span class="span">Deals</span>
+              </h3>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </li>
+          <li>
+            <div class="offer-card has-bg-image img-holder"
+              style="background-image: url('images/offer-banner-2.jpg');">
+              <p class="card-subtitle">Treats & Grooming</p>
+              <h3 class="h3 card-title">
+                Spoil your true <span class="span">love</span>
+              </h3>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </li>
+          <li>
+            <div class="offer-card has-bg-image img-holder"
+              style="background-image: url('images/offer-banner-3.jpg');">
+              <p class="card-subtitle">Our Brand You Will Love</p>
+              <h3 class="h3 card-title">
+                New in this <span class="span">year</span>
+              </h3>
+              <a href="#" class="btn">Read More</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section product" id="shop">
+      <div class="container">
+        <h2 class="h2 section-title">
+          <span class="span">Best</span> Seller
+        </h2>
+        <ul class="grid-list">
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/topcat/catfood.jpg" class="img-cover default">
+                <img src="images/topcat/catfood.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(1)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Sheba</a>
+                </h3>
+                <data class="card-price" value="15">120.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/topcat/dogfood.jpg" class="img-cover default">
+                <img src="images/topcat/dogfood.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button> 
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">(Puppy)Ala Carte</a>
+                </h3>
+                <data class="card-price">80.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+
+              <div class="card-banner img-holder">
+                <img src="images/topcat/dogsuplement.jpg" class="img-cover default">
+                <img src="images/topcat/dogsuplement.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Chew Toy</a>
+                </h3>
+                <data class="card-price">50.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder" >
+                <img src="images/bestseller/bagcareer.jpg"  class="img-cover default">
+                <img src="images/bestseller/bagcareer.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Bag Carrier</a>
+                </h3>
+                <data class="card-price">599.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/bestseller/biolineshampoo.jpg" class="img-cover default">
+                <img src="images/bestseller/biolineshampoo.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Bioline Shampoo</a>
+                </h3>
+                <data class="card-price">99.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/bestseller/FeliciaUrinaryCare.jpg" class="img-cover default">
+                <img src="images/bestseller/FeliciaUrinaryCare.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Felica</a>
+                </h3>
+                <data class="card-price">85.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/bestseller/royalcanin.jpg" class="img-cover default">
+                <img src="images/bestseller/royalcanin.jpg"class="img-cover hover">
+                <button class="card-action-btn">
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Royal Canine</a>
+                </h3>
+                <data class="card-price">250.00</data>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="product-card">
+              <div class="card-banner img-holder">
+                <img src="images/bestseller/yummystick.jpg" class="img-cover default">
+                <img src="images/bestseller/yummystick.jpg"class="img-cover hover">
+                <button class="card-action-btn" >
+                  <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </div>
+              <div class="card-content">
+                <div class="wrapper">
+                  <div class="rating-wrapper gray">
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    <ion-icon name="star" aria-hidden="true"></ion-icon>
+                  </div>
+                  <span class="span">(0)</span>
+                </div>
+                <h3 class="h3">
+                  <a href="#" class="card-title">Yum Stick</a>
+                </h3>
+                <data class="card-price">70.00</data>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="cta has-bg-image" style="background-image: url('images/cta-bg.jpg')">
+      <div class="container">
+        <figure class="cta-banner">
+          <img src="images/retriever2.png">
+        </figure>
+        <div class="cta-content">
+          <h2 class="h2 section-title">Find Your Furry Friend's Favorites at Paws & Tails Pet Shop!</h2>
+          <p class="section-text">
+            Looking for top-quality treats, toys, and essentials for your beloved pet? Look no further! Paws & Tails Pet Shop has everything your furry friend needs to wag their tail with joy. 
+          </p>
+          <a href="#" class="btn">Find out more</a>
+        </div>
+      </div>
+    </section>
+    <section class="section service" aria-label="service">
+      <div class="container">
+        <img src="images/service-image.png" class="img">
+        <h2 class="h2 section-title">
+          <span class="span">What your pet need,</span> Needs it.
+        </h2>       
+      </div>
+    </section>
+  </main>
+  <footer class="footer" style="background-image: url('images/footer-bg.jpg')">
+    <div class="footer-top section">
+      <div class="container">
+        <div class="footer-brand">
+          <a href="#" class="logo"><img src="images/Logo.png" alt=""></a>
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="">Paws4PalsTagum@gmail.com</a>
+          </p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+              <address class="address">
+                Tagum Guest House Bldg. Infront of Sawadee Kap, beside OLD STI bldg.
+              </address>
+            </li>
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+              <a href="tel:+16234567891011" class="contact-link">0948 486 3321</a>
+            </li>
+          </ul>
+          <ul class="social-list">
+            <li> <a href="#" class="social-link"><i class='bx bxl-facebook'></i></a> </li>
+            <li><a href="#" class="social-link"><i class='bx bxl-instagram'></i></a></li>
+          </ul>
+        </div>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+          <li><a href="#" class="footer-link">Careers</a></li>
+          <li><a href="#" class="footer-link">About Us</a></li>
+          <li> <a href="#" class="footer-link">Contact Us</a></li>
+          <li><a href="#" class="footer-link">Affiliate Program</a> </li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+          <li><a href="#" class="footer-link">Online Store</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+        </ul>
+        <ul class="footer-list">
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+          <li><a href="#" class="footer-link">Grooming</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">&copy; 2024 All rights reserved IT/26 <a href="#" class="copyright-link">UM Tagum Programmers</a></p>
+      </div>
+    </div>
+  </footer>
+  
+
+</body>
+
+</html>
